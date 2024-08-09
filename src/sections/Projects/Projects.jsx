@@ -1,12 +1,9 @@
 import styles from "./ProjectsStyles.module.css";
-import viberr from "../../assets/viberr.png";
 import ProjectCard from "../../common/ProjectCard";
 import pro1 from "../../assets/pro1.jpg";
 import pro2 from "../../assets/pro2.jpg";
 import pro3 from "../../assets/pro3.jpg";
 import pro4 from "../../assets/pro4.jpg";
-import hipsster from "../../assets/hipsster.png";
-import fitLift from "../../assets/fitlift.png"
 
 function Projects() {
   return (
