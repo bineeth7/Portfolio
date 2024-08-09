@@ -2,8 +2,8 @@ import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/bineethbc.png";
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';
-import gmailLight from '../../assets/gmail-light.svg'
-import gmailDark from '../../assets/gmail-dark.svg'
+//import gmailLight from '../../assets/gmail-light.svg'
+//import gmailDark from '../../assets/gmail-dark.svg'
 import instagramLight from "../../assets/insta-light.svg";
 import instagramDark from "../../assets/insta-dark.svg";
 import githubLight from "../../assets/github-light.svg";
@@ -22,7 +22,7 @@ function Hero() {
   const instagramIcon  = theme === 'light' ? instagramLight : instagramDark;
   const githubIcon  = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon  = theme === 'light' ? linkedinLight : linkedinDark;
-  const gmailIcon = theme === 'light' ? gmailLight : gmailDark;
+  //const gmailIcon = theme === 'light' ? gmailLight : gmailDark;
   const whatsappIcon = theme === 'light' ? whatsappLight : whatsappDark;
 
   return (
@@ -40,9 +40,9 @@ function Hero() {
         <h1>Bineeth B C</h1>
         <h2>Front end developer</h2>
         <span>
-          <a href="mailto:bineethbc7@gmail.com" target="_blank">
+          {/* <a href="mailto:bineethbc7@gmail.com" target="_blank">
             <img src={gmailIcon} alt="Gmail icon" />
-          </a>
+          </a> */}
           <a href="https://linkedin.com/in/bineethbc/" target="_blank">
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>

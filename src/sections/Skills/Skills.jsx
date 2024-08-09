@@ -10,21 +10,19 @@ function Skills() {
             <SkillList src={checkMarkIcon} skill='HTML' />
             <SkillList src={checkMarkIcon} skill='CSS' />
             <SkillList src={checkMarkIcon} skill='JavaScript' />
-            <SkillList src={checkMarkIcon} skill='ReactJS' />
         </div>
         <hr />
         <div className={styles.skillList}>
-            <SkillList src={checkMarkIcon} skill='React' />
+            <SkillList src={checkMarkIcon} skill='ReactJs' />
             <SkillList src={checkMarkIcon} skill='Bootstrap' />
             <SkillList src={checkMarkIcon} skill='Tailwind CSS' />
-            <SkillList src={checkMarkIcon} skill='Re' />
         </div>
         <hr />
         <div className={styles.skillList}>
+            <SkillList src={checkMarkIcon} skill='Python' />
+            <SkillList src={checkMarkIcon} skill='SQL' />
             <SkillList src={checkMarkIcon} skill='Git' />
             <SkillList src={checkMarkIcon} skill='VS Code' />
-            <SkillList src={checkMarkIcon} skill='Tailwind CSS' />
-            <SkillList src={checkMarkIcon} skill='Re' />
         </div>
         <hr />
     </section>
