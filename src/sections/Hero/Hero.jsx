@@ -38,7 +38,7 @@ function Hero() {
       </div>
       <div className={styles.info}>
         <h1>Bineeth B C</h1>
-        <h2>Front end developer</h2>
+        <h2>Software Engineer</h2>
         <span>
           {/* <a href="mailto:bineethbc7@gmail.com" target="_blank">
             <img src={gmailIcon} alt="Gmail icon" />
