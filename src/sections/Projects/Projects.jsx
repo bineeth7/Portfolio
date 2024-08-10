@@ -24,7 +24,7 @@ function Projects() {
           />
           <ProjectCard
           src={pro3}
-          link="https://github.com/bineeth7/ReatJS-Netflix.git"
+          link="https://github.com/bineeth7/Portfolio.git"
           h3="Portfolio"
           p="ReactJS Responsive"
           />

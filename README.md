@@ -1,5 +1,5 @@
 # React + Vite
-React Responsive Portfolio Website Tutorial Using ReactJs
+React Responsive Portfolio Website Using ReactJs
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
